@@ -26,5 +26,12 @@ namespace aspnet_get_started.Controllers
 
             return View();
         }
+
+        public ActionResult Missing()
+        {
+            ViewBag.Message = "Your missing page.";
+
+            return View();
+        }
     }
 }
